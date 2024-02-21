@@ -14,7 +14,7 @@ __on_player_breaks_block(player, block) ->
 
 
 (_ ~ 'pickup_delay') == 10 // check is optional
-// it will only pick up items that are 'pick-broken'.
+// it will only pick up items that are 'pickaxe-broken'.
 // Removal of this one will also affect contents of chests etc.
 
 // this will teleport items to the player and let them pick it up if they can.
