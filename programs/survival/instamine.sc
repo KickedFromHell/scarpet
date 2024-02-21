@@ -8,8 +8,8 @@ __config() -> {
 // list of blocks that can be instamined
 // remove the comment below to allow cobbled deepslate, or add other blocks
 global_instamine_blocks = [
-  'cobbled_deepslate',
-  'deepslate',
+'cobbled_deepslate',
+'deepslate',
 'end_stone',
 'cobblestone',
 'cobblestone_stairs',
