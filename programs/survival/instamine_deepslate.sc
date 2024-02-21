@@ -7,9 +7,18 @@ __config() -> {
 
 // list of blocks that can be instamined
 // remove the comment below to allow cobbled deepslate, or add other blocks
+// edit adds endstone to the script/ amongst other blocks
 global_instamine_blocks = [
   //'cobbled_deepslate',
-  'deepslate'
+  'deepslate',
+'end_stone',
+'cobblestone',
+'cobblestone_stairs',
+'cobblestone_slab',
+'cobblestone_wall',
+'cobbled_deepslate_stairs',
+'cobbled_deepslate_slab',
+'cobbled_deepslate_wall'
 ];
 
 // tools that can be use to instamine the list of blocks above
