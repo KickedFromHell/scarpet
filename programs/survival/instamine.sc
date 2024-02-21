@@ -24,7 +24,7 @@ global_required_pickaxes = [
 'cobblestone_wall',
 'cobbled_deepslate_stairs',
 'cobbled_deepslate_slab',
-'cobbled_deepslate_wall''
+'cobbled_deepslate_wall'
 ];
 
 __on_player_clicks_block(player, block, face) -> (
