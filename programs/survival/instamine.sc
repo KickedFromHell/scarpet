@@ -8,14 +8,7 @@ __config() -> {
 // list of blocks that can be instamined
 // remove the comment below to allow cobbled deepslate, or add other blocks
 global_instamine_blocks = [
-  //'cobbled_deepslate',
-  'deepslate'
-];
-
-// tools that can be use to instamine the list of blocks above
-// remove the comment below to allow diamond pickaxes, or add other pickaxes
-global_required_pickaxes = [
-  //'cobbled_deepslate',
+  'cobbled_deepslate',
   'deepslate',
 'end_stone',
 'cobblestone',
@@ -25,6 +18,13 @@ global_required_pickaxes = [
 'cobbled_deepslate_stairs',
 'cobbled_deepslate_slab',
 'cobbled_deepslate_wall'
+];
+
+// tools that can be use to instamine the list of blocks above
+// remove the comment below to allow diamond pickaxes, or add other pickaxes
+global_required_pickaxes = [
+  //'diamond_pickaxe',
+  'netherite_pickaxe'
 ];
 
 __on_player_clicks_block(player, block, face) -> (
