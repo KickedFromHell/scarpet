@@ -13,7 +13,7 @@ __on_player_breaks_block(player, block) ->
 );
 
 
-(_ ~ 'pickup_delay') == 10 check is optional
+(_ ~ 'pickup_delay') == 10 // check is optional
 // it will only pick up items that are 'pick-broken'.
 // Removal of this one will also affect contents of chests etc.
 
